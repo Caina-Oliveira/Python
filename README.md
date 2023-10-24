@@ -1,13 +1,5 @@
-# Skynet Agent
-
-Para integrar outro sistema alterar as funções getStore, getSales e getDevolution para o sistema em questão no arquivo ProcessorService.ts.
+# Integração Com API de teste de Vendas.
 
 ## Para executar a aplicação:
 
-```bash
-# Install dependencies
-$ yarn install
-
-# Run the app
-$ yarn start
-```
+Colocar a data no formato DD/MM/YYYY e modulo (VENDAS, VENDASLIVE ou ESTOQUE)
