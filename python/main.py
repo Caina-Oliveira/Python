@@ -126,7 +126,7 @@ def main(date_since: str, date_before: str, module: str):
     if not os.path.isdir(f'tmp/{module}/'):
         os.makedirs(f'tmp/{module}/')
 
-    if module in {'IZICASH', 'IZILIVE'}:
+    if module in {'VENDA', 'VENDALIVE'}:
         date_since = datetime.strptime(date_since, '%d/%m/%Y')
         date_before = datetime.strptime(date_before, '%d/%m/%Y')
         token = handler_dl.get_token()
